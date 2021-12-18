@@ -1,0 +1,12 @@
+{
+  "name": "ts-tut",
+  "version": "1.0.0",
+  "description": "Introduction to typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "dev": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
