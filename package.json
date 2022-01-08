@@ -2,10 +2,10 @@
   "name": "ts-tut",
   "version": "1.0.0",
   "description": "Introduction to typescript",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "tsc",
-    "dev": "tsc -w"
+    "dev": "tsc --watch src/*.ts --outDir dist"
   },
   "author": "",
   "license": "ISC"
